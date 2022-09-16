@@ -1,0 +1,17 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+   int a;
+   float b;
+   char c;
+   long double d;
+   
+   cout<<"the size of a"<<sizeof(a)<<endl;
+   cout<<"the size of b"<<sizeof(b)<<endl;
+   cout<<"the size of c"<<sizeof(c)<<endl;
+   cout<<"the size of d"<<sizeof(d)<<endl;
+    return 0;
+}
