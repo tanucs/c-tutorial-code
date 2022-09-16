@@ -1,0 +1,12 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+   int a=45;
+   int b=56.5;
+   
+   cout<<"the value of a is"<<(float)a<<endl;
+   cout<<"the value of a is"<<(int)b<<endl;
+}
