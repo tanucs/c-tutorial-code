@@ -1,0 +1,38 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int age;
+    cout<<"tell me your age";
+    cin>>age;
+    switch(age)
+    {
+        case 18:
+        cout<<"you are 18"<<endl;
+        break;
+        
+        case 1:
+        cout<<"you are infant"<<endl;
+        break;
+        
+        case 5:
+        cout<<"you are baby"<<endl;
+        break;
+        
+        case 12:
+        cout<<"you are child"<<endl;
+        break;
+        
+        case 15:
+        cout<<"you are teenager"<<endl;
+        break;
+        
+        default:
+        cout<<"you are young man"<<endl;
+        break;
+        
+    }
+    return 0;
+}
