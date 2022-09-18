@@ -1,0 +1,17 @@
+
+#include <iostream>
+
+using namespace std;
+
+int main(){
+    /*for loops in cpp*/
+    //syntax
+    /*for(initialization;condition;updation)*/
+    
+    for (int i=0;i<=100;i++)
+    {
+         cout<<i<<endl;
+    }
+
+    return 0;
+}
