@@ -1,0 +1,21 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    //example of do while loop
+    // do
+    //{
+        //statement;
+    //}
+     //while(condition);
+     int i=0;
+    do{
+        cout<<i*6<<endl;
+        i++;
+    }while(i<=10);
+
+
+    return 0;
+}
