@@ -1,0 +1,24 @@
+#include <iostream>
+
+using namespace std;
+
+typedef struct employee
+{
+    int eId;
+    char favChar;
+    float salary;
+    
+}ep;
+
+int main()
+{
+     ep tanu;
+    tanu .eId =1;
+    tanu .favChar = 'S';
+    tanu .salary= 100000;
+    cout<<"the value is "<<tanu.salary<<endl;
+    cout<<"The value is" <<tanu.favChar<<endl;
+   
+
+    return 0;
+}
